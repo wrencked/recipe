@@ -1,0 +1,49 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+
+html {
+    background-color: rgba(122, 191, 191, .5);
+}
+
+body {
+    width: 414px;
+    background-color: #F2F2F2;
+    margin: 0 auto;
+}
+
+h1, h2, h3, nav a, nav span, figcaption, menu li, #social li, footer {
+    font-family: bebas neue, monospace, sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+nav a, nav span, figcaption, menu li, #social li, footer {
+    font-size: 20px;
+}
+
+p, dd, li, nav, input {
+    font-family: montserrat, monospace, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+dt {
+    font-family: montserrat, monospace, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+[src*="street-tacos"] {
+    width: 414px;
+}
